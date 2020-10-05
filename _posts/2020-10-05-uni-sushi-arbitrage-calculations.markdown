@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Uniswap & Sushiswap arbitrage calculations"
+date:   2020-10-05 20:46:25 +0800
+categories: crypto
+---
 For input and output tokens
 
 ```
