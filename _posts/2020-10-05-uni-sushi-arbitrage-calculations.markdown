@@ -94,3 +94,37 @@ The roots are
 x2 = --------------------------------------------------------------  (9)
                        k * (z2 * y2 - z1 * y1)
 ```
+
+Lets consider maximizing of profit by input amount `x1`. We are going to have
+to substitute into expression (5) for `x3` the value of `x2` from (4).
+
+```
+              k^2 * x1 * z1 * z2
+x3 = -------------------------------------  (10)
+     k^2 * x1 * z1 + k * x1 * y2 + y1 * y2
+```
+
+Then we will look for maximum of
+
+```
+                     / |           k^2 * x1 * z1 * z2               | \
+max(|x3 - x1|) = max|  | ------------------------------------- - x1 |  |  (11)
+                     \ | k^2 * x1 * z1 + k * x1 * y2 + y1 * y2      | /
+```
+
+If we take a derivative of (11) by `x1` and look for extremum we will get
+quadratic equation
+
+```
+k^2 * (k * z1 + y2)^2 * x1^2 + 2 * k * (k * z1 + y2) * y1 * y2 * x1 + y1 * y2 * (y1 * y2 - k^2 * z1 * z2) = 0  (12)
+```
+
+The eq. (12) has two solutions. One of which is negative. The one we are
+interested in is
+
+```
+           __________________
+     k * \/ z1 * z2 * y1 * y2 - y1 * y2
+x1 = ----------------------------------  (13)
+             k * (k * z1 + y2)
+```
