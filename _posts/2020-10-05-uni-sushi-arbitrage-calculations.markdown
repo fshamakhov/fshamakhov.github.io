@@ -128,3 +128,5 @@ interested in is
 x1 = ----------------------------------  (13)
              k * (k * z1 + y2)
 ```
+
+![uniswap arbitrage visualization](/images/uniswap-arbitrage-visualization.png)
